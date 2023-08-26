@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/Logo.ico">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="sass/new-style.css">
+    <title>Marketplace Technology</title>
+</head>
+
+<body>
+    <div>
+        <header>
+            <!-- Navbar -->
+            <nav class="navbar navbar-dark bg-dark justify-content-between p-3">
+
+                <a class="navbar-brand " href="index.html">
+                    <img src="img/Logo.png" alt="Logo" width="35" height="35" class="d-inline-block align-text-top">
+                    Marketplace Technology
+                </a>
+                <form class="d-flex">
+
+                    <a class="navbar-brand " href="form/formulario.html">
+                        <button class="btn btn-outline-primary pmy-2 my-sm-0" type="button"
+                        id="button-search">Crear Producto</button>   
+                    </a>
+                    <a class="navbar-brand " href="form/listaProductos.html">
+                        <button class="btn btn-outline-primary pmy-2 my-sm-0" type="button"
+                        id="button-search">Producto</button>
+                    </a>
+                    <!-- Dropdown Filters -->
+                    <div class="dropdown ms-5 me-4 container d-flex align-items-center">
+                        <select name="select" class="btn btn-secondary dropdown-toggle fw-bold" type="button"
+                            id="dropdownMenuButton2" onchange="ShowSelected();">
+                            <option value="value0" selected>Filtros</option>
+                            <option value="a-z">A - Z</option>
+                            <option value="antiguas">Mas antiguas</option>
+                            <option value="recientes">Mas recientes</option>
+                            <option value="puntaje">Más popular</option>
+                        </select>
+                    </div>
+
+                    <!-- Search -->
+                    <input class="form-control me-2 mr-sm-2" type="search" placeholder="Search" aria-label="Search"
+                        id="box-search">
+                    <button class="btn btn-outline-primary pmy-2 my-sm-0" type="submit"
+                        id="button-search">Search</button>
+                </form>
+            </nav>
+
+        </header>
+    </div>
+
+    <!-- Phone Catalog -->
+
+    <div class="row row-cols-1 row-cols-md-3 g-4" id="movie-catalog"></div>
+
+    <footer class="text-center text-white" style="background-color: #F1F1F1;">
+        <!-- Grid container -->
+        <div class="container pt-4">
+            <!-- Section: Social media -->
+            <section class="mb-4">
+                <!-- Facebook -->
+                <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="#!" role="button"
+                    data-mdb-ripple-color="dark">
+                    <i class="fab fa-facebook-f"></i>
+                    <img src="img/iconos-footer/facebook.png" alt="Logo" width="35" height="35" class="d-inline-block align-text-top">
+                </a>
+
+                <!-- Twitter -->
+                <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="#!" role="button"
+                    data-mdb-ripple-color="dark">
+                    <i class="fab fa-twitter"></i>
+                    <img src="img/iconos-footer/twitter.png" alt="Logo" width="35" height="35" class="d-inline-block align-text-top">
+                </a>
+
+                <!-- Google -->
+                <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="#!" role="button"
+                    data-mdb-ripple-color="dark">
+                    <i class="fab fa-google"></i>
+                    <img src="img/iconos-footer/google.png" alt="Logo" width="35" height="35" class="d-inline-block align-text-top">
+                </a>
+
+                <!-- Instagram -->
+                <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="#!" role="button"
+                    data-mdb-ripple-color="dark">
+                    <i class="fab fa-instagram"></i>
+                    <img src="img/iconos-footer/instagram.png" alt="Logo" width="35" height="35" class="d-inline-block align-text-top">
+                </a>
+
+                <!-- Linkedin -->
+                <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="https://www.linkedin.com/in/santiagoadm/" target="_blank" role="button"
+                    data-mdb-ripple-color="dark">
+                    <i class="fab fa-linkedin"></i>
+                    <img src="img/iconos-footer/linkedin.png" alt="Logo" width="35" height="35" class="d-inline-block align-text-top">
+                </a>
+                <!-- Github -->
+                <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="https://github.com" target="_blank" role="button"
+                    data-mdb-ripple-color="dark">
+                    <i class="fab fa-github"></i>
+                    <img src="img/iconos-footer/github.png" alt="Logo" width="35" height="35" class="d-inline-block align-text-top">
+                </a>
+            </section>
+            <!-- Section: Social media -->
+        </div>
+        <!-- Grid container -->
+
+        <!-- Copyright -->
+        <div class="text-center text-dark p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+            © 2023 Copyright:
+            <a class="text-dark" href="#">Marketplace Technology</a>
+        </div>
+        <!-- Copyright -->
+    </footer>
+
+
+
+
+    <!-- custom script JavaScript --------------------------------------------------------------------------------->
+    <script src="js/search.js"></script>
+    <script src="js/filter.js"></script>
+    <script src="js/comment.js"></script>
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <!-- ----------------------------------------------------------------------------------------------------------- -->
+</body>
+
+</html>
