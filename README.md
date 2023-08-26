@@ -1,21 +1,20 @@
-# u-cartelera-peliculas
+# Marketplace technology
 
-Este proyecto es una actividad de la materia desarrollo de Front-End, la cual consiste en desarrollar una página web, donde se encontraran una cartelera de películas, con su respectivos detalle (Fotos, link a trailer, puntaje, actores, entre otros) y su sección de comentarios.
+Este proyecto es una actividad de la materia desarrollo de Back-End, la cual consiste en desarrollar una página web, donde se encontraran una serie de producto referentes al área tecnológico, con su respectivos detalle (Fotos, link a reseña, puntaje, valor, entre otros) y su sección de comentarios.
 
-![](/img/Captura%20Proyecto3.jpg)
+### Página inicio
+![](/img/captura-inicio.jpg)
 
-![](/img/Captura%20Proyecto1.jpg)
+### Modelo Entidad-Relación
+![](/img/entidad-relacion.jpeg)
 
-![](/img/Captura%20Proyecto2.jpg)
-
+### Stack
+[![Stack](https://skills.thijs.gg/icons?i=html,css)](https://skills.thijs.gg)
 
 Elaborado por: 
-Camila Morales
-Santiago Díaz
-Lina Garzón
+- Camila Morales
+- Santiago Díaz
 
-Materia
-Desarrollo Front-End
+Asignatura: Desarrollo Back-End
 
-Universidad 
-Fundación Universitaria Compensar
+Universidad: Fundación Universitaria Compensar
