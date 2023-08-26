@@ -9,7 +9,7 @@ Este proyecto es una actividad de la materia desarrollo de Back-End, la cual con
 ![](/img/entidad-relacion.jpeg)
 
 ### Stack
-[![Stack](https://skills.thijs.gg/icons?i=html,css)](https://skills.thijs.gg)
+[![Stack](https://skills.thijs.gg/icons?i=html,css,scss,js)](https://skills.thijs.gg)
 
 Elaborado por: 
 - Camila Morales
